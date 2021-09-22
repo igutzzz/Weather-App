@@ -9,10 +9,11 @@ font-family: 'Be Vietnam Pro', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 1.5rem;
 }
 
 .app {
-    margin: 10vh 1.5rem;
+    margin: 10vh;
 }
 
 #city_search {
