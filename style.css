@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500&display=swap');
+
+body {
+font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #e63946;
+    text-align: center;
+    color: #f1faee;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    margin-top: 10vh;
+}
+
+#city_search {
+    padding: .8rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #1d3557;
+    color: #f1faee;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    width: 20rem;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #e63946;
+    border: none;
+}
+
+#city_search::placeholder {
+    color: #a8dadc;
+}
+
+#icon {
+    width: 20%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 5px;
+    color: #f1faee;
+    transition: ease-in-out .2s;
+}
+
+button:hover {
+    color: #a8dadc;
+    cursor: pointer;
+}
