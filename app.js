@@ -6,7 +6,7 @@ let pesquisa = document.querySelector('#pesquisa')
 let icon = document.querySelector('#icon')
 
 pesquisa.addEventListener('click', function(){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+cityName.value+'&units=metric&lang=pt_br&appid=c765fc40bb2e410d490051d8955652e3')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+cityName.value+'&units=metric&lang=pt_br&appid=c765fc40bb2e410d490051d8955652e3')
     .then(response => response.json())
     .then(data => {
         let nameValue = data['name'];
